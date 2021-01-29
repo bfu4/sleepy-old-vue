@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="doc m-5">
-    <link rel="stylesheet" href="../styles.css"/>
+    <link rel="stylesheet" href="/styles.css"/>
     <div class="m-2">
       <div class="center white-text large bold"><a href="https://github.com/threadk1ll" class="link pink">@threadk1ll</a>'s Ethereum
         Documentation.</div>

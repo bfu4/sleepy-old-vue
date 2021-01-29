@@ -1,6 +1,6 @@
 <template>
   <div>
-    <link rel="stylesheet" href="../../styles.css"/>
+    <link rel="stylesheet" href="/styles.css"/>
     <div class="title center large white-text force-center">Some fantastic Ethereum documentation to refer to.</div>
     <div class="columns m-5 is-multiline is-mobile">
       <div class="column m-2 boxeh is-full white-text">
