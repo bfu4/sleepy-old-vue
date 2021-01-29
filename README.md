@@ -1,4 +1,4 @@
-# sleepy-revamp
+# sleepy
 
 ## Project setup
 ```
