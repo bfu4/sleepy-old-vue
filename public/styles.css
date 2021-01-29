@@ -1,5 +1,6 @@
-html, body {
+html, body, .doc {
     background-color: #242126;
+    font-family: "Segoe UI", sans-serif;
 }
 
 #navbar {
@@ -49,4 +50,32 @@ html, body {
 
 .img-link:hover {
     filter: invert(30%);
+}
+
+code {
+    color: #eaeaea;
+    background-color: #453d47;
+    font-family: "Segoe UI", sans-serif;
+    border-radius: 5px;
+}
+.boxeh {
+    background-color: #332f34;
+    border-radius: 10px;
+}
+
+.boxeh1 {
+    background-color: #48444a;
+    border-radius: 10px;
+}
+
+.pink {
+    color: #f4a1da;
+}
+
+.red {
+    color: #ff878c;
+}
+
+.purple {
+    color: #9877b7;
 }

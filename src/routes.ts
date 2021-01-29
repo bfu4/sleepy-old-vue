@@ -1,9 +1,13 @@
 import Vue, { Component } from "vue";
 import App from "@/App.vue";
 import VueRouter from "vue-router";
+import EthDocPage from "./components/EthDocPage.vue";
+import Sources from "./components/Sources.vue";
 
 export const routes = [
     { path: "/", component: App },
+    { path: "/docs/eth", component: EthDocPage },
+    { path: "/docs/eth/sources", component: Sources}
 ]
 
 /**
