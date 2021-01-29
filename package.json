@@ -1,5 +1,5 @@
 {
-  "name": "sleepy-revamp",
+  "name": "sleepy",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -31,6 +31,9 @@
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
   },
+  "vue": {
+    "runtimeCompiler": true
+  },
   "eslintConfig": {
     "root": true,
     "env": {
@@ -42,7 +45,8 @@
       "@vue/typescript"
     ],
     "parserOptions": {
-      "parser": "@typescript-eslint/parser"
+      "parser": "@typescript-eslint/parser",
+      "ecmaVersion": 2020
     },
     "rules": {}
   },
@@ -51,7 +55,7 @@
     "last 2 versions",
     "not dead"
   ],
-  "_id": "sleepy@2.0.0",
+  "_id": "sleepy@0.1.0",
   "bugs": {
     "url": "https://github.com/bfu4/sleepy/issues"
   },
@@ -61,8 +65,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pokelang/pokelang.git"
-  },
-  "vue": {
-    "runtimeCompiler": true
   }
 }
