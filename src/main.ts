@@ -1,10 +1,13 @@
 import Vue from 'vue'
-import App from './App.vue'
+import VueRouter from "vue-router";
+import router, { getComponent } from "@/routes";
 
-Vue.config.productionTip = false
-
+Vue.use(VueRouter)
 const bulma = require('bulma')
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+const app = new Vue({
+  router,
+  render: function(createElement) {
+    return createElement(getComponent(window.location.pathname));
+  }
+}).$mount('#app');

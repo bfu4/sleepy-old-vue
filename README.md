@@ -1,24 +1,6 @@
 # sleepy
+*I got sick of my website again .. so I rewrote it. Its production is tracked on Github!*
 
-## Project setup
-```
-npm install
-```
+[![License: MIT](https://img.shields.io/badge/License-MIT-pink.svg)](https://opensource.org/licenses/MIT)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Here, you can watch me **try** to make a website, while my environment panics after an hour of development. c:
