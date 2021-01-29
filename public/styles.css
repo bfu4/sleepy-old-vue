@@ -1,0 +1,52 @@
+html, body {
+    background-color: #242126;
+}
+
+#navbar {
+    background-color: #332f34;
+    border-radius: 30px;
+}
+
+.nav-a {
+    color: #332f34;
+    text-decoration: none;
+    filter: invert(10%);
+}
+
+.round-image {
+    border-radius: 20px;
+}
+
+.nav-button {
+    background-color: #48444a;
+    border-radius: 10px;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 20px #7e668c;
+}
+
+.white-text {
+    color: #eaeaea;
+}
+
+.large {
+    font-size: 38px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.force-center {
+    text-align: center;
+}
+
+.smol {
+    width: 50px;
+    height: 50px;
+}
+
+.img-link:hover {
+    filter: invert(30%);
+}
