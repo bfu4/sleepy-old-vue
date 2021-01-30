@@ -30,7 +30,7 @@
       </div>
       <div class="column is-full boxeh m-2">
         <p class="bold title white-text">References</p>
-        <p><a class="pink bold" target="_blank" href="./sources">SOURCES, DOCUMENTATION, READING</a></p>
+        <p><a class="pink bold" target="_blank" href="https://sleeepy.ninja/docs/eth/sources">SOURCES, DOCUMENTATION, READING</a></p>
       </div>
       <div class="column is-full boxeh m-2">
         <p class="bold title white-text">Baby code.</p>
