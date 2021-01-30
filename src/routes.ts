@@ -16,7 +16,7 @@ export const routes = [
  * @param path path to get component by
  */
 export function getComponent(path : string) : Component {
-    let component : Component = new Vue();
+    let component! : Component;
     routes.map(route => {
         if (route.path.localeCompare(path) == 0) {
             component = route.component;
