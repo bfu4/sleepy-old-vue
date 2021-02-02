@@ -1,5 +1,6 @@
-import Vue, { Component } from "vue";
+import { Component } from "vue";
 import App from "@/App.vue";
+import Horse from "./components/Horse.vue";
 import VueRouter from "vue-router";
 import EthDocPage from "./components/EthDocPage.vue";
 import Sources from "./components/Sources.vue";
@@ -7,7 +8,8 @@ import Sources from "./components/Sources.vue";
 export const routes = [
     { path: "/", component: App },
     { path: "/docs/eth", component: EthDocPage },
-    { path: "/docs/eth/sources", component: Sources}
+    { path: "/docs/eth/sources", component: Sources },
+    { path: "/horse", component: Horse }
 ]
 
 /**
